@@ -1,6 +1,7 @@
 import React from 'react';
 
 import PropTypes from 'prop-types';
+
 import * as S from './styles';
 
 const Text = ({ ...props }) => {
@@ -10,7 +11,7 @@ const Text = ({ ...props }) => {
 };
 
 Text.defaultProps = {
-  textColor: 'neutral700',
+  textColor: 'neutral600',
   align: 'center',
   fontStyle: 'normal',
   bold: 400,

@@ -1,7 +1,8 @@
 import React from 'react';
-
 import { Platform } from 'react-native';
+
 import PropTypes from 'prop-types';
+
 import * as S from './styles';
 
 const Layout = ({ ...props }) => {
@@ -39,11 +40,11 @@ const Layout = ({ ...props }) => {
 Layout.defaultProps = {
   justify: 'flex-start',
   bgColor: 'neutral100',
-  color1: 'neutral500',
+  color1: 'neutral',
   color2: 'neutral100',
   barColor: 'neutral100',
   barStyle: 'dark-content',
-  w: 90,
+  w: '90%',
 };
 
 Layout.propTypes = {
@@ -53,7 +54,7 @@ Layout.propTypes = {
   color2: PropTypes.string,
   barColor: PropTypes.string,
   barStyle: PropTypes.string,
-  w: PropTypes.number,
+  w: PropTypes.string,
 };
 
 export default Layout;

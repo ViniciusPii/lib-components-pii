@@ -1,8 +1,9 @@
-//refatorar
+// refatorar
 
 import React from 'react';
 
 import PropTypes from 'prop-types';
+
 import * as S from './styles';
 
 const Card = ({ ...props }) => {
@@ -12,7 +13,7 @@ const Card = ({ ...props }) => {
 Card.defaultProps = {
   bgColor: 'white',
   shadow: 'gray300',
-  w: 100,
+  w: '100%',
   h: 100,
   mt: 0,
   mb: 20,
